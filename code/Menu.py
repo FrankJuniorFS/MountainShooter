@@ -40,7 +40,7 @@ class Menu:
                             menu_option += 1
                         else:
                             menu_option = 0
-                    if event.key == pygame.K_UP: ## UP KEY
+                    if event.key == pygame.K_UP: # UP KEY
                         if menu_option > 0:
                             menu_option -= 1
                         else:
