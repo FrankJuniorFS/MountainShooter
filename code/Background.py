@@ -1,8 +1,7 @@
-from code.Entity import Entity
 from code.conts import WIN_WIDTH, ENTITY_SPEED
+from code.Entity import Entity
 
-
-class Backgorund(Entity):
+class Background(Entity):
     def __init__(self, name: str, position: tuple):
         super().__init__(name, position)
 
